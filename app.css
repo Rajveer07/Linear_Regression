@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+
+canvas{
+    background-color: rgb(241, 187, 187);
+}
+
+.itrUp{
+    background-color: white;
+    border: 1px solid black;
+    height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.interaction{
+    display: flex;
+    flex-direction: row;
+    margin-left: 356px;
+}
+
+.text{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
