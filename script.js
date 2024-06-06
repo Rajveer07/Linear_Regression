@@ -250,6 +250,7 @@ itrUp.addEventListener('click',()=>{
         iteration++;
         text.innerText = iteration;
         ctx.clearRect(0,0,width,height);
+        createCordinatePlane();
         scatterPlot(dataset,"green")
         let prediction = train(train_input, train_output, 0.0001, parseInt(text.innerText));
         scatterPlot2(train_input,prediction,"red");
@@ -262,6 +263,7 @@ itrDown.addEventListener('click',()=>{
         iteration--;
         text.innerText = iteration;
         ctx.clearRect(0,0,width,height);
+        createCordinatePlane();
         scatterPlot(dataset,"green")
         let prediction = train(train_input, train_output, 0.0001, parseInt(text.innerText));
         scatterPlot2(train_input,prediction,"red");
