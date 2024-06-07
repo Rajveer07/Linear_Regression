@@ -268,6 +268,6 @@ itrDown.addEventListener('click',()=>{
         let prediction = train(train_input, train_output, 0.0001, parseInt(text.innerText));
         scatterPlot2(train_input,prediction,"red");
     }else{
-        alert("Iteration can't be negative or zero , green graph is 0 iteration");
+        alert("Iteration can't be negative or zero ");
     }
 })
